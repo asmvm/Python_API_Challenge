@@ -1,12 +1,13 @@
-# Python API Homework - What's the Weather Like?
+
+## Python API Challenge
+# What's the Weather Like?
+
+
 
 ## Background
 
-Whether financial, political, or social -- data's true power lies in its ability to answer questions definitively. So let's take what you've learned about Python requests, APIs, and JSON traversals to answer a fundamental question: "What's the weather like as we approach the equator?"
+Using Python requests, APIs, and JSON traversals, this project examines weather patterns as we approach the equator. While the unmistakeable response may be that it gets hotter, this assignment will use data to prove the matter.  
 
-Now, we know what you may be thinking: _"Duh. It gets hotter..."_
-
-But, if pressed, how would you **prove** it?
 
 ![Equator](trilogy_images/equatorsign.png)
 
