@@ -1,7 +1,7 @@
 
 <p align="center">
- <h3 align="center"> Python API Challenge </h3>
- <h2 align="center"> What's the Weather Like? </h2>
+ <h2 align="center"> Python API Challenge </h2>
+ <h1 align="center"> What's the Weather Like? </h1>
 </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -15,10 +15,11 @@
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#part-i-weatherpy">Part I - WeatherPy</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#python-notebook">Python Notebook</a></li>
+        <li><a href="#scatter-plots">Scatter Plots</a></li>
+        <li><a href="#linear-regression-plots">Linear Regression Plots</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -47,15 +48,20 @@ Using Python requests, APIs, and JSON traversals, Part I of this project examine
 
 In order to visualize the weather of 500+ cities across the world of varying distance from the equator, we will utilize citipy, a [simple Python library](https://pypi.python.org/pypi/citipy) and the [OpenWeatherMap API](https://openweathermap.org/api) to help create a representative model of weather across world cities.
 
-Your first requirement is to create a series of scatter plots to showcase the following relationships:
+### Python Code
+To view the python code used to extract and transform the data, select the link below to view the full notebook.
+* [Weather Py Jupyter Notebook](https://nbviewer.jupyter.org/github/asmvm/Python_API_Challenge/blob/master/Weather_Py/WeatherPy_main.ipynb)
 
-* Temperature (F) vs. Latitude
-* Humidity (%) vs. Latitude
-* Cloudiness (%) vs. Latitude
-* Wind Speed (mph) vs. Latitude
+### Scatter Plots
+Scatter plots illustrating relationship between temperature, humidity, cloudiness, and windspeed vs latitude. Max Temp displayed below. Select links to plots to view remaining plots:
 
-After each plot add a sentence or two explaining what the code is and analyzing.
+* ![Temperature (F) vs. Latitude](saved_figures/lat_vs_maxtemp.png)
+* [Humidity (%) vs. Latitude](saved_figures/lat_vs_humidity.png)
+* [Cloudiness (%) vs. Latitude](saved_figures/lat_vs_cloudiness.png)
+* [Wind Speed (mph) vs. Latitude](saved_figures/lat_vs_windspeed.png)
 
+
+### Linear Regression Plots
 Your second requirement is to run linear regression on each relationship, only this time separating them into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
 
 * Northern Hemisphere - Temperature (F) vs. Latitude
