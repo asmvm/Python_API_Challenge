@@ -99,5 +99,5 @@ Narrowing down the DataFrame to find the ideal weather condition:
 * Using Google Places API to find the first hotel for each city located within 5000 meters of our coordinates.
 * Hotels are plotted on top of the humidity heatmap with each pin containing the **Hotel Name**, **City**, and **Country**.
 
-![Hotel Map](saved_figures/hotel_markers_heatmap.png)
+![Hotel Map](saved_figures/hotel_markers_heatmap.PNG)
 
