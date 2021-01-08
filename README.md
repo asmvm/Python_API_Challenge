@@ -27,9 +27,8 @@
       <a href="#part-two">Part Two</a>
       <ul>
         <li><a href="#python-notebook">Python Notebook</a></li>
-        <li><a href="#scatter-plots">Scatter Plots</a></li>
-        <li><a href="#linear-regression-plots">Linear Regression Plots</a></li>
-        <li><a href="#dataframe">Dataframe</a></li>
+        <li><a href="#heatmap">Heatmap</a></li>
+        <li><a href="#hotel-map">Hotel Map</a></li>
       </ul>
     </li>
   </ol>
@@ -47,7 +46,7 @@ Using Python requests, APIs, and JSON traversals, Part I of this project examine
 
 
 ## Part One
-### Weather Py 
+### WeatherPy 
 
 In order to visualize the weather of 500+ cities across the world of varying distance from the equator, we will utilize citipy, a [simple Python library](https://pypi.python.org/pypi/citipy) and the [OpenWeatherMap API](https://openweathermap.org/api) to help create a representative model of weather across world cities.
 
@@ -87,17 +86,18 @@ The Pandas libray was utilized to create dataframes to hold weather data for 500
 Based on the weather data, jupyter-gmaps and the Google Places API are used to plan future vacations. To view the jupyter notebook for VacationPy, select the link to read the python code. 
 * [WeatherPy Jupyter Notebook](https://nbviewer.jupyter.org/github/asmvm/Python_API_Challenge/blob/master/Vacation_Py/VacationPy_main.ipynb)
 
-
+### Heatmap
 We can generate a heatmap that displays the humidity for every city plotted in Part One. The humidity level is used as the weight for the heatmap.
 
 ![Cities Heatmap](saved_figures/humidity_heatmap.png)
 * [cities heatmap full capture](saved_figures/heatmap_large_img_2021.PNG)
 
+### Hotel Map
 Narrowing down the DataFrame to find the ideal weather condition: 
 * Locations are filtered for a max temperature lower than 80 degrees but higher than 70, wind speed less than 10 mph, and zero cloudiness.
 * For the ideal vacation, all destinations must meet the three parameters.
 * Using Google Places API to find the first hotel for each city located within 5000 meters of our coordinates.
 * Hotels are plotted on top of the humidity heatmap with each pin containing the **Hotel Name**, **City**, and **Country**.
 
-  ![Hotel Map](saved_figures/hotels_over_heatmap.png)
+![Hotel Map](saved_figures/hotels_over_heatmap.png)
 
