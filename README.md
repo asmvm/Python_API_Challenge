@@ -52,7 +52,7 @@ In order to visualize the weather of 500+ cities across the world of varying dis
 
 ### Python Notebook
 To view the python code used to extract and transform the data, select the link below to view the full notebook.
-* [Weather Py Jupyter Notebook](https://nbviewer.jupyter.org/github/asmvm/Python_API_Challenge/blob/master/Weather_Py/WeatherPy_main.ipynb)
+* [WeatherPy Jupyter Notebook](https://nbviewer.jupyter.org/github/asmvm/Python_API_Challenge/blob/master/Weather_Py/WeatherPy_main.ipynb)
 
 ### Scatter Plots
 Scatter plots illustrating relationship between temperature, humidity, cloudiness, and windspeed vs latitude. Max Temp displayed below. Select links to plots to view remaining plots:
@@ -84,7 +84,7 @@ The Pandas libray was utilized to create dataframes to hold weather data for 500
 ### VacationPy
 
 Based on the weather data, jupyter-gmaps and the Google Places API are used to plan future vacations. To view the jupyter notebook for VacationPy, select the link to read the python code. 
-* [WeatherPy Jupyter Notebook](https://nbviewer.jupyter.org/github/asmvm/Python_API_Challenge/blob/master/Vacation_Py/VacationPy_main.ipynb)
+* [VacationPy Jupyter Notebook](https://nbviewer.jupyter.org/github/asmvm/Python_API_Challenge/blob/master/Vacation_Py/VacationPy_main.ipynb)
 
 ### Heatmap
 We can generate a heatmap that displays the humidity for every city plotted in Part One. The humidity level is used as the weight for the heatmap.
@@ -99,5 +99,5 @@ Narrowing down the DataFrame to find the ideal weather condition:
 * Using Google Places API to find the first hotel for each city located within 5000 meters of our coordinates.
 * Hotels are plotted on top of the humidity heatmap with each pin containing the **Hotel Name**, **City**, and **Country**.
 
-![Hotel Map](saved_figures/hotels_over_heatmap.png)
+![Hotel Map](saved_figures/hotel_markers_heatmap.png)
 
