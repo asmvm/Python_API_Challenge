@@ -15,11 +15,12 @@
       </ul>
     </li>
     <li>
-      <a href="#part-i-weatherpy">Part I - WeatherPy</a>
+      <a href="#part-one-weatherpy">Part I - WeatherPy</a>
       <ul>
         <li><a href="#python-notebook">Python Notebook</a></li>
         <li><a href="#scatter-plots">Scatter Plots</a></li>
         <li><a href="#linear-regression-plots">Linear Regression Plots</a></li>
+        <li><a href="#dataframes">Dataframe</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -42,47 +43,39 @@ Using Python requests, APIs, and JSON traversals, Part I of this project examine
 * [OpenWeatherMap API](https://openweathermap.org/api)
 
 
-<!-- ![Equator](trilogy_images/equatorsign.png) -->
-
-## Part I - WeatherPy
+## Part One - WeatherPy
 
 In order to visualize the weather of 500+ cities across the world of varying distance from the equator, we will utilize citipy, a [simple Python library](https://pypi.python.org/pypi/citipy) and the [OpenWeatherMap API](https://openweathermap.org/api) to help create a representative model of weather across world cities.
 
-### Python Code
+### Python Notebook
 To view the python code used to extract and transform the data, select the link below to view the full notebook.
 * [Weather Py Jupyter Notebook](https://nbviewer.jupyter.org/github/asmvm/Python_API_Challenge/blob/master/Weather_Py/WeatherPy_main.ipynb)
 
 ### Scatter Plots
 Scatter plots illustrating relationship between temperature, humidity, cloudiness, and windspeed vs latitude. Max Temp displayed below. Select links to plots to view remaining plots:
 
-* ![Temperature (F) vs. Latitude](saved_figures/lat_vs_maxtemp.png)
+![Temperature (F) vs. Latitude](saved_figures/lat_vs_maxtemp.png)
 * [Humidity (%) vs. Latitude](saved_figures/lat_vs_humidity.png)
 * [Cloudiness (%) vs. Latitude](saved_figures/lat_vs_cloudiness.png)
 * [Wind Speed (mph) vs. Latitude](saved_figures/lat_vs_windspeed.png)
 
 
 ### Linear Regression Plots
-Your second requirement is to run linear regression on each relationship, only this time separating them into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
+Linear regression is run on each relationship, while also looking at cities in Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude). A linear regression function was created to optimize the code when creating the plots:
 
-* Northern Hemisphere - Temperature (F) vs. Latitude
-* Southern Hemisphere - Temperature (F) vs. Latitude
-* Northern Hemisphere - Humidity (%) vs. Latitude
-* Southern Hemisphere - Humidity (%) vs. Latitude
-* Northern Hemisphere - Cloudiness (%) vs. Latitude
-* Southern Hemisphere - Cloudiness (%) vs. Latitude
-* Northern Hemisphere - Wind Speed (mph) vs. Latitude
-* Southern Hemisphere - Wind Speed (mph) vs. Latitude
+![Northern Hemisphere - Temperature (F) vs. Latitude](saved_figures/northernhem_maxtemp_vs_lat.png)
+* [Southern Hemisphere - Temperature (F) vs. Latitude](saved_figures/southern_hem_maxtemp_vs_lat.png)
+* [Northern Hemisphere - Humidity (%) vs. Latitude](saved_figures/northern_hem_humidity_vs_lat.png)
+* [Southern Hemisphere - Humidity (%) vs. Latitude](saved_figures/southern_hem_humidity_vs_lat.png)
+* [Northern Hemisphere - Cloudiness (%) vs. Latitude](saved_figures/northern_hem_cloudiness_vs_lat.png)
+* [Southern Hemisphere - Cloudiness (%) vs. Latitude](saved_figures/southern_hem_cloudiness_vs_lat.png)
+* [Northern Hemisphere - Wind Speed (mph) vs. Latitude](saved_figures/northern_hem_windspeed_vs_lat.png)
+* [Southern Hemisphere - Wind Speed (mph) vs. Latitude](saved_figures/southern_hem_windspeed_vs_lat.png)
 
-After each pair of plots explain what the linear regression is modeling such as any relationships you notice and any other analysis you may have.
+### Dataframe
+The Pandas libray was utilized to create dataframes to hold the data of the 500+ cities and saved as a CSV file. 
+* [Weather Data](Weather_Py/clean_city_data.csv)
 
-**Optional** You will be creating multiple linear regression plots. To optimize your code, write a function that creates the linear regression plots.
-
-Your final notebook must:
-
-* Randomly select **at least** 500 unique (non-repeat) cities based on latitude and longitude.
-* Perform a weather check on each of the cities using a series of successive API calls.
-* Include a print log of each city as it's being processed with the city number and city name.
-* Save a CSV of all retrieved data and a PNG image for each scatter plot.
 
 ### Part II - VacationPy
 
