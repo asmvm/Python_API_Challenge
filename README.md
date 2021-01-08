@@ -20,7 +20,7 @@
         <li><a href="#python-notebook">Python Notebook</a></li>
         <li><a href="#scatter-plots">Scatter Plots</a></li>
         <li><a href="#linear-regression-plots">Linear Regression Plots</a></li>
-        <li><a href="#dataframes">Dataframe</a></li>
+        <li><a href="#dataframe">Dataframe</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
