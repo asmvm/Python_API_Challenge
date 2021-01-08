@@ -1,8 +1,7 @@
 
 <p align="center">
- <h3> Python API Challenge </h3>
- <br/>
- <h2> What's the Weather Like? </h2>
+ <h3 align="center"> Python API Challenge </h3>
+ <h2 align="center"> What's the Weather Like? </h2>
 </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -10,7 +9,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">Background</a>
+      <a href="#background">Background</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -35,6 +34,11 @@
 ## Background
 
 Using Python requests, APIs, and JSON traversals, Part I of this project examines weather patterns as we approach the equator. While we know the temperature gets hotter, we will also evaluate humidity, windspeed, cloudiness, in addition to max temperature, to understand how latitude affects weather. Part II of this project will use jupyter-gmaps and the Google Places API to plan a future vacation based on the data collected in Part I.
+
+### Built With
+* [Python](https://www.python.org/)
+* [CitiPy](https://pypi.python.org/pypi/citipy)
+* [OpenWeatherMap API](https://openweathermap.org/api)
 
 
 <!-- ![Equator](trilogy_images/equatorsign.png) -->
