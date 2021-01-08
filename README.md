@@ -15,7 +15,7 @@
       </ul>
     </li>
     <li>
-      <a href="#part-one-weatherpy">Part I - WeatherPy</a>
+      <a href="#part-one-weatherpy">Part One - WeatherPy</a>
       <ul>
         <li><a href="#python-notebook">Python Notebook</a></li>
         <li><a href="#scatter-plots">Scatter Plots</a></li>
@@ -35,7 +35,7 @@
 <!-- Background -->
 ## Background
 
-Using Python requests, APIs, and JSON traversals, Part I of this project examines weather patterns as we approach the equator. While we know the temperature gets hotter, we will also evaluate humidity, windspeed, cloudiness, in addition to max temperature, to understand how latitude affects weather. Part II of this project will use jupyter-gmaps and the Google Places API to plan a future vacation based on the data collected in Part I.
+Using Python requests, APIs, and JSON traversals, Part I of this project examines weather patterns as we approach the equator. While we know the temperature gets hotter, we will also evaluate humidity, windspeed, cloudiness, in addition to max temperature, to understand how latitude affects weather. Part Two of this project will use jupyter-gmaps and the Google Places API to plan a future vacation based on the data collected in Part One. This python project was completed as a part of Georgia Tech's Data Science and Analytics boot camp.
 
 ### Built With
 * [Python](https://www.python.org/)
