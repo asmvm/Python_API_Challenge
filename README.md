@@ -1,19 +1,20 @@
 
+<p align="center">
 ## Python API Challenge
-# What's the Weather Like?
-
+## What's the Weather Like?
+</p>
 
 
 ## Background
 
-Using Python requests, APIs, and JSON traversals, this project examines weather patterns as we approach the equator. While the unmistakeable response may be that it gets hotter, this assignment will use data to prove the matter.  
+Using Python requests, APIs, and JSON traversals, part I of this project examines weather patterns as we approach the equator. While we know the temperature gets hotter, we will also evaluate humidity, windspeed, cloudiness, in addition to max temperature, to understand how latitude affects weather. Part II of this project will use jupyter-gmaps and the Google Places API to plan a future vacation based on the data collected in Part I.
 
 
-![Equator](trilogy_images/equatorsign.png)
+<!-- ![Equator](trilogy_images/equatorsign.png) -->
 
 ## Part I - WeatherPy
 
-In this example, you'll be creating a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, you'll be utilizing a [simple Python library](https://pypi.python.org/pypi/citipy), the [OpenWeatherMap API](https://openweathermap.org/api), and a little common sense to create a representative model of weather across world cities.
+In order to visualize the weather of 500+ cities across the world of varying distance from the equator, we will utilize citipy, a [simple Python library](https://pypi.python.org/pypi/citipy) and the [OpenWeatherMap API](https://openweathermap.org/api) to help create a representative model of weather across world cities.
 
 Your first requirement is to create a series of scatter plots to showcase the following relationships:
 
@@ -22,7 +23,7 @@ Your first requirement is to create a series of scatter plots to showcase the fo
 * Cloudiness (%) vs. Latitude
 * Wind Speed (mph) vs. Latitude
 
-After each plot add a sentence or too explaining what the code is and analyzing.
+After each plot add a sentence or two explaining what the code is and analyzing.
 
 Your second requirement is to run linear regression on each relationship, only this time separating them into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
 
